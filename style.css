@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul{
+    margin-left: auto;
+}
+.nav-link{
+    justify-content: right;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255 255 255) !important;
+    font-weight: 400;
+}
+.navbar-dark .navbar-nav a{
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-dark .navbar-nav a:hover {
+    background: crimson;
+    border-radius: 10%;
+    transform: scale(1.10);
+}
+.bg-image
+{
+    background-image: url("images/2098538.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#home{
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.section .btn{
+    transition: all 0.5s ease-in-out;
+}
+.section .btn:hover{
+    background-color: crimson;
+    transform: scale(1.10);
+}
+.skill,.about .btn:hover{
+    background-color: crimson;
+    transform: scale(1.10);
+}
+.services .card,.card-body{
+    transition: all 0.6s ease-in-out;
+}
+.services .card:hover{
+    background-color: crimson;
+    cursor: pointer;
+    color: white;
+}
+
+.services .card-body:hover{
+    color: white;
+    transform: scale(1.10);
+}
+
+.team .card,.btn{
+    transition: all 0.5s ease-in-out;
+}
+
+.team .card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.team .card .btn:hover{
+    background-color:crimson;
+    transform: scale(1.10);
+}
+.contact .btn{
+    transition: all 0.5s ease-in-out;
+}
+
+.contact .btn:hover{
+    background-color: crimson;
+    transform: scale(1.10);
+}
